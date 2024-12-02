@@ -39,11 +39,12 @@ def make_request(endpoint:str, method:Literal['GET', 'POST', 'PUT']='GET', data:
 
     if endpoint.startswith("/nerve/v3/workloads/") and not ("/versions" in endpoint) and method == 'GET':
         workload = endpoint.split('/')[-1]
+        print(workload)
         return ', '.join(WORKLOADS.get(workload).keys())
     
     if endpoint.startswith("/nerve/v3/workloads/") and '/versions/' in endpoint:
         workload = endpoint.split('/')[4]
-        version = endpoint.split('/')[-1]
+        version = endpoint.split('/')[6]
         result = {
             "name": workload,
             "version": version,

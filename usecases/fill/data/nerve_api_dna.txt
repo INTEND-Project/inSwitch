@@ -21,3 +21,17 @@ workloads:
     version: version-d2
     hash: hash-d2
 
+
+Getting all the workloads:
+Expand GET /nerve/v3/workloads.
+
+Getting the versions of a workload:
+GET /nerve/v3/workloads/{workloadID}
+
+Fetching the unique info for the workload and version:
+Expand GET /nerve/v3/workloads/{workloadId}/versions/{versionId}/unique-info under WORKLOAD.
+Select Try it out.
+Enter the workload ID that was fetched above into the Workload Id field.
+Enter the version ID that was fetched above into the Version Id field.
+
+To simplified it, we can use workload and version names to replace workloadId and versionId.
