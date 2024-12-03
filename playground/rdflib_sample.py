@@ -4,22 +4,18 @@ from rdflib.namespace import split_uri
 g = Graph()
 
 # Parse in an RDF file hosted on the Internet
-g.parse("./fill-kg-nt.txt")
-subject_uri = "file:///workspaces/inSwitch/playground/MA-005699"
+g.parse("./usecases/fill/data/anonimized_data_fill.ttl")
 
-query = f"""
-CONSTRUCT {{
-    ?subject ?predicate ?object .
-}}
-WHERE {{
-    VALUES ?start {{ <{subject_uri}> }}
-    ?start (<>)* ?subject .
-    ?subject ?predicate ?object .
-}}
-"""
+sg = g.query("""
+SELECT (SAMPLE(?subject) AS ?sampleSubject) ?predicate  (SAMPLE(?object) AS ?sampleObject)
+WHERE {
+  ?subject ?predicate ?object .
+}
+GROUP BY ?predicate
+""")
 
-for row in g.query(query):
-    print(row)
+# for row in g:
+#     print(row)
 
 def localname(uri):
 
@@ -32,9 +28,17 @@ def localname(uri):
             return uri.split('/')[-1] if '/' in uri else uri
     return uri  # Return as is if it's not a URIRef
 
-
-for subj, pred, obj in g:
-    print(f"{localname(subj)} {localname(pred)} {localname(obj)}")
+# Print triples in the desired format
+for s, p, o in sg:
+    # Use namespace_manager to abbreviate URIs
+    subject_prefix = g.namespace_manager.qname(s)
+    predicate_prefix = g.namespace_manager.qname(p)
+    object_prefix = g.namespace_manager.qname(o) if isinstance(o, URIRef) else f'"{o}"'
+    
+    # Print in the desired format
+    print(f"{subject_prefix} {predicate_prefix} {object_prefix}")
+# for subj, pred, obj in g:
+#     print(f"{localname(subj)} {localname(pred)} {localname(obj)}")
     
 
 # # Loop through each triple in the graph (subj, pred, obj)
