@@ -167,3 +167,6 @@ docker/fuseki/
 *.credential
 
 /tmp/
+.cache/
+inswitch/agent/tmp/
+inswitch/nerve_rag/tmp/
