@@ -1,10 +1,10 @@
 import sys
 sys.path.append('../..')
 
-from autogen import ConversableAgent, register_function
+from autogen import ConversableAgent, register_function, Agent
 from autogen.agentchat.contrib.retrieve_user_proxy_agent import RetrieveUserProxyAgent
 from inswitch.agent.basic import get_chat_agent, get_llm_agent, get_tool_executor_agent
-from typing import List, Callable, Any
+from typing import List, Callable, Any, Optional, Dict, Tuple, Union
 from inswitch.llm.model import get_openai_model_config
 from chromadb.utils import embedding_functions
 import json
@@ -31,16 +31,35 @@ class RagAgent(RetrieveUserProxyAgent):
         )
         self.caller_system_message = f"{TOOL_CALLER_DEFAULT_SYSTEM_MESSAGE}"
         self.rag_caller = rag_caller = get_llm_agent(f'{name}_driver', system_message=self.caller_system_message)
-        self.register_nested_chats(
-            [
-                {
-                    "recipient": self.rag_caller,
-                    "max_turns": max_internal_turns,
-                    "summary_method": 'last_msg'
-                }
-            ],
-            trigger = lambda sender: sender not in [rag_caller]
+
+        def reply_func(
+                recipient: ConversableAgent,
+                messages: Optional[List[Dict]] = None,
+                sender: Optional[Agent] = None,
+                config: Optional[Any] = None,
+            ) -> Tuple[bool, Union[str, Dict, None]]:
+            self.initiate_chat(
+                self.rag_caller, 
+                message=self.message_generator, 
+                problem="I want to obtain API info for deploying docker workload with ID docker3.")
+            return (True, self.retrieve_docs(problem = "I want to obtain info for the workload with ID docker3 and version 3 and hash 5454854754kcnvcl43.", n_results = 3))
+
+
+        self.register_reply(
+            trigger = lambda sender: sender not in [rag_caller],
+            reply_func = reply_func
         )
+
+        # self.register_nested_chats(
+        #     [
+        #         {
+        #             "recipient": self.rag_caller,
+        #             "max_turns": max_internal_turns,
+        #             "summary_method": 'last_msg'
+        #         }
+        #     ],
+        #     trigger = lambda sender: sender not in [rag_caller]
+        # )
         
     @staticmethod
     def message_generator(sender, recipient, context):
