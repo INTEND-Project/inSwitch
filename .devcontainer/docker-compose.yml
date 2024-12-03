@@ -12,33 +12,33 @@ services:
     networks: 
       - inswitch_network
     command: sleep infinity
-  neo4j:
-    container_name: neo4jdb
-    image: neo4j:latest
-    ports:
-      - 7475:7474
-      - 7688:7687
-    networks: 
-      - inswitch_network
-    environment:
-      - NEO4J_AUTH=neo4j/inswitch
-      - NEO4J_apoc_export_file_enabled=true
-      - NEO4J_apoc_import_file_enabled=true
-      - NEO4J_apoc_import_file_use__neo4j__config=true
-      - NEO4J_PLUGINS=["apoc", "graph-data-science"]
-    volumes:
-      - ../docker/neo4j/data:/data
-      - ../docker/neo4j/logs:/logs
-      - ../docker/neo4j/import:/var/lib/neo4j/import
-      - ../docker/neo4j/plugins:/plugins
-  fuseki:
-    container_name: fuseki
-    image: stain/jena-fuseki
-    ports:
-      - 3030:3030
-    networks: 
-      - inswitch_network
-    environment:
-      - ADMIN_PASSWORD=inswitch
-    volumes:
-      - ../docker/fuseki:/fuseki
+  # neo4j:
+  #   container_name: neo4jdb
+  #   image: neo4j:latest
+  #   ports:
+  #     - 7475:7474
+  #     - 7688:7687
+  #   networks: 
+  #     - inswitch_network
+  #   environment:
+  #     - NEO4J_AUTH=neo4j/inswitch
+  #     - NEO4J_apoc_export_file_enabled=true
+  #     - NEO4J_apoc_import_file_enabled=true
+  #     - NEO4J_apoc_import_file_use__neo4j__config=true
+  #     - NEO4J_PLUGINS=["apoc", "graph-data-science"]
+  #   volumes:
+  #     - ../docker/neo4j/data:/data
+  #     - ../docker/neo4j/logs:/logs
+  #     - ../docker/neo4j/import:/var/lib/neo4j/import
+  #     - ../docker/neo4j/plugins:/plugins
+  # fuseki:
+  #   container_name: fuseki
+  #   image: stain/jena-fuseki
+  #   ports:
+  #     - 3030:3030
+  #   networks: 
+  #     - inswitch_network
+  #   environment:
+  #     - ADMIN_PASSWORD=inswitch
+  #   volumes:
+  #     - ../docker/fuseki:/fuseki
