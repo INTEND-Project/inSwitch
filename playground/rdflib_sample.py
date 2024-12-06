@@ -53,3 +53,21 @@ for s, p, o in sg:
 
 # for subj, pred, obj in g:
 #     print(f"{subj} {pred} {obj}")
+
+def get_nodes_3_hops(service:str, machine:str)->str:
+    return f""" 
+    PREFIX intend: <https://intendproject.eu/schema/>
+    SELECT ?container ?predict ?ip
+    WHERE{{
+        {service} intend:hasComponent ?component .
+        ?container intend:isContainerOf ?component .
+        ?machinetype intend:hasService {service} .
+        {machine} intend:is_machine_type ?machinetype .
+        {machine} intend:has_IP ?ip 
+        BIND(intend:deploy as ?predict).
+    }}
+    """
+
+sq = g.query(get_nodes_3_hops("fill:Service5", "fill:Active_Machine6"))
+for row in sq:
+    print(row)
