@@ -1,6 +1,16 @@
 from typing import Literal
 import json
+import sys
 
+# Add path
+sys.path.append('../../../..')
+
+
+from inswitch.llm.model import get_openai_model_config
+from pydantic import BaseModel, model_validator, ValidationError
+from openai import OpenAI
+
+llm_config = get_openai_model_config()
 
 WORKLOADS = {
     'ngix':{
@@ -52,8 +62,69 @@ def make_request(endpoint:str, method:Literal['GET', 'POST', 'PUT']='GET', data:
         }
         return json.dumps(result)
 
+def filter_task(message: str) -> str:
+
+    class NerveTaskType(BaseModel):
+        list_workloads: bool 
+        create_workload: bool 
+        create_label: bool
+        get_labels: bool
+        delete_label: bool
+        create_wl_template: bool
+        delete_workloads: bool 
+        list_nodes: bool 
+        reboot_nodes: bool 
+        start: bool 
+        stop: bool 
+        restart: bool
+
+    class NerveOperationType(BaseModel):
+        GET: bool
+        POST: bool
+        PUT: bool
+        DELETE: bool
+        MATCH: bool
+
+    class CombinedResponseFormat(BaseModel):
+        task: NerveTaskType
+        operation: NerveOperationType
+
+    client = OpenAI(api_key=llm_config['api_key'])
+    
+    completion_with_compliance_check = client.beta.chat.completions.parse(
+        model=llm_config["model"],
+        messages=[
+            {"role": "system", "content": "Determine what kind of Nerve API task your input is, and what kind of HTTP method/operation is expected."},
+            {
+                "role": "user",
+                "content": message
+            }
+        ],
+        response_format=CombinedResponseFormat,
+    )
+    parsed_responses = completion_with_compliance_check.choices[0].message.parsed
+    tasks = parsed_responses.task
+    operations = parsed_responses.operation
+    true_tasks = []
+    true_operations = []
+    for task in tasks:
+        if task[1]:
+            true_tasks.append(task[0])
+    for operation in operations:
+        if operation[1]:
+            true_operations.append(operation[0]) 
+    return str("Type of Nerve API task: "+ str(true_tasks) + " -- "+ "The expected HTTP method: " + str(true_operations))
+
+
 if __name__=="__main__":
     print(make_request("/nerve/v3/workloads"))
     print(make_request("/nerve/v3/workloads/alarm_record"))
     print(make_request("/nerve/v3/workloads/alarm_record/versions/1.2"))
+
+    print(filter_task("Deploy the following workloads for Machine: M00001 (Type: MTC) - Workload: ngix, Version: ngix_27 (1.27.2) - Workload: nodejs, Version: nodejs_23 (23.2.0) - Workload: alarm_record - Workload: mqtt_sender"))
+    print(filter_task("Start the workload with name ngix"))
+    print(filter_task("Get all of the labels"))
+
+
+
 

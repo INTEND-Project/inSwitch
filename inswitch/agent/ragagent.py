@@ -3,7 +3,7 @@ sys.path.append('../..')
 
 from autogen import ConversableAgent, register_function, Agent
 from autogen.agentchat.contrib.retrieve_user_proxy_agent import RetrieveUserProxyAgent
-from inswitch.agent.basic import get_chat_agent, get_llm_agent, get_tool_executor_agent
+from inswitch.agent.basic import get_llm_agent
 from typing import List, Callable, Any, Optional, Dict, Tuple, Union
 from inswitch.llm.model import get_openai_model_config
 from chromadb.utils import embedding_functions
@@ -27,6 +27,7 @@ class RagAgent(RetrieveUserProxyAgent):
                 "model": get_openai_model_config()["model"],
                 "embedding_function": embedding_functions.OpenAIEmbeddingFunction(api_key = get_openai_model_config()["api_key"]), # alternatively, "all-mpnet-base-v2"
                 "get_or_create": True,  # set to False if you don't want to reuse an existing collection
+                "chunk_token_size": self.get_max_tokens(get_openai_model_config()["model"]) * 0.1
             },
         )
         self.caller_system_message = f"{TOOL_CALLER_DEFAULT_SYSTEM_MESSAGE}"
@@ -50,16 +51,6 @@ class RagAgent(RetrieveUserProxyAgent):
             reply_func = reply_func
         )
 
-        # self.register_nested_chats(
-        #     [
-        #         {
-        #             "recipient": self.rag_caller,
-        #             "max_turns": max_internal_turns,
-        #             "summary_method": 'last_msg'
-        #         }
-        #     ],
-        #     trigger = lambda sender: sender not in [rag_caller]
-        # )
         
     @staticmethod
     def message_generator(sender, recipient, context):
@@ -77,7 +68,7 @@ class RagAgent(RetrieveUserProxyAgent):
         """
         sender._reset()
         problem = context.get("problem", "")
-        n_results = context.get("n_results", 3)
+        n_results = context.get("n_results", 10)
         search_string = context.get("search_string", "")
 
         sender.retrieve_docs(problem, n_results, search_string)
