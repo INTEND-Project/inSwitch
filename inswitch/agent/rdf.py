@@ -6,6 +6,10 @@ from rdflib import Graph, URIRef
 RDF_CALLER_DEFAULT_SYSTEM_MESSAGE = '''
 You are a helpful assistant. 
 You have access to a knowledge graph via a function to execute SPARQL queries.
+When you generate SPARQL that search for triples with a known subject, predict or object,
+try to use the filter clause.
+For example: SELECT ?subject ?predict ?object WHERE{?subject ?predict ?object FILTER(?subject = ex:Service1)},
+or WHERE{?subject ?predict ?object FILTER(?predict = ex:description)}
 '''
 
 
@@ -59,14 +63,13 @@ class RdfAgent(ConversableAgent):
         skg = self.kg.query(query)
         print(f"{self} -- {query}")
         result = ""
-        for s, p, o in skg:
+        for row in skg:
             # Use namespace_manager to abbreviate URIs
-            subject_prefix = self.kg.namespace_manager.qname(s)
-            predicate_prefix = self.kg.namespace_manager.qname(p)
-            object_prefix = self.kg.namespace_manager.qname(o) if isinstance(o, URIRef) else f'"{o}"'
-            
-            # Print in the desired format
-            result = result + f"{subject_prefix} {predicate_prefix} {object_prefix}\n"
+            row_result = ""
+            for item in row:
+                item_prefix = self.kg.namespace_manager.qname(item) if isinstance(item, URIRef) else f'"{item}"'
+                row_result = f"{row_result} {item_prefix}" 
+            result = f"{result}\n{row_result}"
         return result
 
     def get_sample_kg(self)->str:
