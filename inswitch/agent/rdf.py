@@ -2,14 +2,17 @@ from autogen import ConversableAgent, register_function
 from inswitch.agent.basic import get_chat_agent, get_llm_agent, get_tool_executor_agent
 from typing import List, Callable, Any, Union
 from rdflib import Graph, URIRef
+from functools import wraps
+from typing import Any
 
 RDF_CALLER_DEFAULT_SYSTEM_MESSAGE = '''
-You are a helpful assistant. 
-You have access to a knowledge graph via a function to execute SPARQL queries.
-When you generate SPARQL that search for triples with a known subject, predict or object,
+You have access to a knowledge graph via a group of function that extract knowledge from the graph.
+If none of the functions fit what you want to extract, you can use the default function to run
+a SPARQL query that you generate from scratch. 
+When you generate SPARQL to query triples with a known subject, predict or object,
 try to use the filter clause.
-For example: SELECT ?subject ?predict ?object WHERE{?subject ?predict ?object FILTER(?subject = ex:Service1)},
-or WHERE{?subject ?predict ?object FILTER(?predict = ex:description)}
+For example: SELECT ?subject ?predict ?object WHERE{?subject ?predict ?object FILTER(?subject = a:subject)},
+or WHERE{?subject ?predict ?object FILTER(?predict = a:predict)}
 '''
 
 
@@ -47,12 +50,11 @@ class RdfAgent(ConversableAgent):
             trigger = lambda sender: sender not in [self.rdf_caller]
         )
 
-        def query_kg_embedded(query:str)->str:
-            print(f"{self.name} -- {query}")
+        def query_kg_with_sparql(query:str)->str:
             return self.query_kg(query)
 
         register_function(
-            f=query_kg_embedded, 
+            f=query_kg_with_sparql, 
             caller=self.rdf_caller, 
             executor=self, 
             description="This is the function to query subgraph. The input is a SPARQL query and the output is a string with all the tripples"
@@ -61,7 +63,6 @@ class RdfAgent(ConversableAgent):
     
     def query_kg(self, query:str)->str:
         skg = self.kg.query(query)
-        print(f"{self} -- {query}")
         result = ""
         for row in skg:
             # Use namespace_manager to abbreviate URIs
@@ -83,9 +84,24 @@ class RdfAgent(ConversableAgent):
 
     def get_namespaces(self, samplekg:str)->str:
 
-
         return "\n".join(
             f"@Prefix {prefix}: {namespace}" 
             for prefix, namespace in self.kg.namespace_manager.namespaces()
             if prefix+':' in samplekg
         )
+
+    def register_fixed_query(self, func:Callable, description):
+        @wraps(func)
+        def wrapper(*args, **kwargs) -> Any:
+            query = func(*args, **kwargs)
+            return self.query_kg(query)
+
+        wrapper.__name__ = func.__name__ +"_exec"
+
+        register_function(
+            f=wrapper, 
+            caller=self.rdf_caller, 
+            executor=self, 
+            description= description
+        )
+
