@@ -1,5 +1,6 @@
 # inSwitch
-LLM agents for context switching from business-level intents to resource-level intents in congnitive computing continuum
+LLM agents for context switching from business-level intents to resource-level intents in the cognitive computing continuum.  
+More information for the INTEND project that inSwitch is part of can be found [here](https://intendproject.eu/).
 
 # Install
 We recommend using [VS Code + devcontainer](https://code.visualstudio.com/docs/devcontainers/containers). You need to install the devcontainers extension to VS Code. After that, when you open this workspace in Code, there will be a pop-up window asking if you want to re-open it in devcontainer. If you missed it, use cmd+shift+p, and select 
