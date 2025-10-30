@@ -1,0 +1,2845 @@
+[
+    {
+        "@id": "https://intendproject.eu/fill/Component4",
+        "@type": [
+            "https://intendproject.eu/schema/Component"
+        ],
+        "https://intendproject.eu/schema/hasContainer": [
+            {
+                "@id": "https://intendproject.eu/fill/Container23"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container24"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Component4"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Component4"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/mfvNUkWsXpJr"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Component8",
+        "@type": [
+            "https://intendproject.eu/schema/Component"
+        ],
+        "https://intendproject.eu/schema/hasContainer": [
+            {
+                "@id": "https://intendproject.eu/fill/Container40"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container41"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Component8"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Component8"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/mfvNUkWsXpJr"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container6",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine5"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component1"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container6"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container6"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Component11",
+        "@type": [
+            "https://intendproject.eu/schema/Component"
+        ],
+        "https://intendproject.eu/schema/hasContainer": [
+            {
+                "@id": "https://intendproject.eu/fill/Container39"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Component11"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Component11"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/mfvNUkWsXpJr"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container4",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine2"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine3"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component1"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container4"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container4"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container8",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component1"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container8"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container8"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container13",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine3"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component2"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container13"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container13"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Component1",
+        "@type": [
+            "https://intendproject.eu/schema/Component"
+        ],
+        "https://intendproject.eu/schema/hasContainer": [
+            {
+                "@id": "https://intendproject.eu/fill/Container1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container2"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container3"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container5"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container6"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container7"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container8"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container9"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container10"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Component1"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Component1"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/mfvNUkWsXpJr"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Service11",
+        "@type": [
+            "https://intendproject.eu/schema/Service"
+        ],
+        "https://intendproject.eu/schema/description": [
+            {
+                "@value": "Service11 logs component changes of motors, spindles and ball screws. In addition, every machine crash is recorded, including the program run."
+            }
+        ],
+        "https://intendproject.eu/schema/hasComponent": [
+            {
+                "@id": "https://intendproject.eu/fill/Component4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Component8"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Component9"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Service11"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Service11"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/goMRcdnMgqtX"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Service3",
+        "@type": [
+            "https://intendproject.eu/schema/Service"
+        ],
+        "https://intendproject.eu/schema/description": [
+            {
+                "@value": "Service3 monitors media consumption and ensures early detection of production changes and leaks that might otherwise go undetected."
+            }
+        ],
+        "https://intendproject.eu/schema/hasComponent": [
+            {
+                "@id": "https://intendproject.eu/fill/Component1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Component4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Component5"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Service3"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Service3"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/goMRcdnMgqtX"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container19",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine2"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine5"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine3"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component12"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container19"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container19"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Service9",
+        "@type": [
+            "https://intendproject.eu/schema/Service"
+        ],
+        "https://intendproject.eu/schema/description": [
+            {
+                "@value": "Service9 detects the constant temperature range for efficient production. This saves time and reduces scrap due to a shorter warm-up phase."
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Service9"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Service9"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/goMRcdnMgqtX"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container41",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine2"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component8"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container41"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container41"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container28",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine5"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component5"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container28"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container28"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container5",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine2"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine5"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine3"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component1"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container5"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container5"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container21",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine2"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine5"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine3"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component13"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container21"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container21"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container27",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine5"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine3"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component5"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container27"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container27"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container30",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine2"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine5"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine3"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Container30"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container30"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container30"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Machine2",
+        "@type": [
+            "https://intendproject.eu/schema/Machine"
+        ],
+        "https://intendproject.eu/schema/hasContainer": [
+            {
+                "@id": "https://intendproject.eu/fill/Container1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container2"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container3"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container5"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container11"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container12"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container17"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container19"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container21"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container23"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container25"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container26"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container29"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container30"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container31"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container32"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container33"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container34"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container39"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container40"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container41"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container42"
+            }
+        ],
+        "https://intendproject.eu/schema/hasService": [
+            {
+                "@id": "https://intendproject.eu/fill/Service1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service2"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service3"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service5"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service6"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service7"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service8"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service9"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service10"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service11"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service12"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Machine2"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Machine2"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/ChFiDQgHfyXz"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container35",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine5"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component10"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container35"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container35"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Service2",
+        "@type": [
+            "https://intendproject.eu/schema/Service"
+        ],
+        "https://intendproject.eu/schema/description": [
+            {
+                "@value": "Service2 provides an overview of your production. The machine status can be called up at any time, allowing workflows to be optimized."
+            }
+        ],
+        "https://intendproject.eu/schema/hasComponent": [
+            {
+                "@id": "https://intendproject.eu/fill/Component4"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Service2"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Service2"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/goMRcdnMgqtX"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Component13",
+        "@type": [
+            "https://intendproject.eu/schema/Component"
+        ],
+        "https://intendproject.eu/schema/hasContainer": [
+            {
+                "@id": "https://intendproject.eu/fill/Container21"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container22"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Component13"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Component13"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/mfvNUkWsXpJr"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container33",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine2"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine5"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component10"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container33"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container33"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container34",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine2"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine5"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component10"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container34"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container34"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Service8",
+        "@type": [
+            "https://intendproject.eu/schema/Service"
+        ],
+        "https://intendproject.eu/schema/description": [
+            {
+                "@value": "Service8 analyzes the G-code of all components. Optimization potential is suggested to effectively reduce cycle time."
+            }
+        ],
+        "https://intendproject.eu/schema/hasComponent": [
+            {
+                "@id": "https://intendproject.eu/fill/Component10"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Component11"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Service8"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Service8"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/goMRcdnMgqtX"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container17",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine2"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine5"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine3"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component3"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container17"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container17"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container42",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine2"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine3"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component14"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container42"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container42"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container29",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine2"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine5"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine3"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component6"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container29"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container29"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Component2",
+        "@type": [
+            "https://intendproject.eu/schema/Component"
+        ],
+        "https://intendproject.eu/schema/hasContainer": [
+            {
+                "@id": "https://intendproject.eu/fill/Container11"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container12"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container13"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container14"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container15"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container16"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Component2"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Component2"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/mfvNUkWsXpJr"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Machine1",
+        "@type": [
+            "https://intendproject.eu/schema/Machine"
+        ],
+        "https://intendproject.eu/schema/hasContainer": [
+            {
+                "@id": "https://intendproject.eu/fill/Container1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container2"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container5"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container11"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container12"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container17"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container19"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container21"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container23"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container25"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container26"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container29"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container30"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container31"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container32"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container33"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container34"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container39"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container40"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container41"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container42"
+            }
+        ],
+        "https://intendproject.eu/schema/hasService": [
+            {
+                "@id": "https://intendproject.eu/fill/Service1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service2"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service3"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service5"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service6"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service7"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service8"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service9"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service10"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service11"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service12"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Machine1"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Machine1"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/ChFiDQgHfyXz"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Component3",
+        "@type": [
+            "https://intendproject.eu/schema/Component"
+        ],
+        "https://intendproject.eu/schema/hasContainer": [
+            {
+                "@id": "https://intendproject.eu/fill/Container17"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container18"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Component3"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Component3"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/mfvNUkWsXpJr"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container2",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine2"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine3"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component1"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container2"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container2"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container10",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine5"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component1"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container10"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container10"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container16",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine4"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component2"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container16"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container16"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Machine5",
+        "@type": [
+            "https://intendproject.eu/schema/Machine"
+        ],
+        "https://intendproject.eu/schema/hasContainer": [
+            {
+                "@id": "https://intendproject.eu/fill/Container1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container5"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container6"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container10"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container11"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container15"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container17"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container18"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container19"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container20"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container21"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container22"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container23"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container24"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container25"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container26"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container27"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container28"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container29"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container30"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container31"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container33"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container34"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container35"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container37"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container38"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container39"
+            }
+        ],
+        "https://intendproject.eu/schema/hasService": [
+            {
+                "@id": "https://intendproject.eu/fill/Service1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service2"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service3"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service5"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service6"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service7"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service8"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service10"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service11"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Machine5"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Machine5"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/ChFiDQgHfyXz"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Service4",
+        "@type": [
+            "https://intendproject.eu/schema/Service"
+        ],
+        "https://intendproject.eu/schema/description": [
+            {
+                "@value": "Service4 provides information on the utilization of a machine in a defined period. The analysis provides insights into utilization and efficiency and identifies any bottlenecks or optimization potential."
+            }
+        ],
+        "https://intendproject.eu/schema/hasComponent": [
+            {
+                "@id": "https://intendproject.eu/fill/Component1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Component4"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Service4"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Service4"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/goMRcdnMgqtX"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Service1",
+        "@type": [
+            "https://intendproject.eu/schema/Service"
+        ],
+        "https://intendproject.eu/schema/description": [
+            {
+                "@value": "Service1 records all components and the process steps are analyzed. Occurred messages and the tool usage of each component are displayed and provide transparency in the production data."
+            }
+        ],
+        "https://intendproject.eu/schema/hasComponent": [
+            {
+                "@id": "https://intendproject.eu/fill/Component1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Component2"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Component3"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Component6"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Component12"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Service1"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Service1"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/goMRcdnMgqtX"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container9",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component1"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container9"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container9"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Service10",
+        "@type": [
+            "https://intendproject.eu/schema/Service"
+        ],
+        "https://intendproject.eu/schema/description": [
+            {
+                "@value": "Service10 analyzes tool wear. You can determine the condition when replacing tools or compare wear among tools of the same type."
+            }
+        ],
+        "https://intendproject.eu/schema/hasComponent": [
+            {
+                "@id": "https://intendproject.eu/fill/Component2"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Component3"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Component13"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Service10"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Service10"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/goMRcdnMgqtX"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Component10",
+        "@type": [
+            "https://intendproject.eu/schema/Component"
+        ],
+        "https://intendproject.eu/schema/hasContainer": [
+            {
+                "@id": "https://intendproject.eu/fill/Container31"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container32"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container33"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container34"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container35"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container36"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container37"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container38"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Component10"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Component10"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/mfvNUkWsXpJr"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container12",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine2"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine3"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component2"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container12"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container12"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container1",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine2"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine5"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine3"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component1"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container1"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container1"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Component14",
+        "@type": [
+            "https://intendproject.eu/schema/Component"
+        ],
+        "https://intendproject.eu/schema/hasContainer": [
+            {
+                "@id": "https://intendproject.eu/fill/Container42"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/mfvNUkWsXpJr"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container7",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine4"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component1"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container7"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container7"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Machine3",
+        "@type": [
+            "https://intendproject.eu/schema/Machine"
+        ],
+        "https://intendproject.eu/schema/hasContainer": [
+            {
+                "@id": "https://intendproject.eu/fill/Container1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container2"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container3"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container5"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container11"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container12"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container13"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container14"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container17"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container19"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container21"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container23"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container25"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container27"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container29"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container30"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container42"
+            }
+        ],
+        "https://intendproject.eu/schema/hasService": [
+            {
+                "@id": "https://intendproject.eu/fill/Service1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service2"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service3"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service9"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Machine3"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Machine3"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/ChFiDQgHfyXz"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Component6",
+        "@type": [
+            "https://intendproject.eu/schema/Component"
+        ],
+        "https://intendproject.eu/schema/hasContainer": [
+            {
+                "@id": "https://intendproject.eu/fill/Container29"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Component6"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Component6"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/mfvNUkWsXpJr"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container18",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine5"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component3"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container18"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container18"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container3",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine2"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine3"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component1"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container3"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container3"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Service6",
+        "@type": [
+            "https://intendproject.eu/schema/Service"
+        ],
+        "https://intendproject.eu/schema/description": [
+            {
+                "@value": "Service6 allows manual analysis of all recorded data. Any questions can thus be clarified independently."
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Service6"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Service6"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/goMRcdnMgqtX"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Service7",
+        "@type": [
+            "https://intendproject.eu/schema/Service"
+        ],
+        "https://intendproject.eu/schema/description": [
+            {
+                "@value": "Service7 automatically records every NC program change. The possibility of analysis and tracking provides more transparency and control."
+            }
+        ],
+        "https://intendproject.eu/schema/hasComponent": [
+            {
+                "@id": "https://intendproject.eu/fill/Component1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Component2"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Component3"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Service7"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Service7"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/goMRcdnMgqtX"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container40",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine2"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component8"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container40"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container40"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container20",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine5"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component12"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container20"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container20"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container31",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine2"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine5"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component10"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container31"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container31"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container14",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine3"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component2"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container14"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container14"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Component9",
+        "@type": [
+            "https://intendproject.eu/schema/Component"
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Component9"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Component9"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/mfvNUkWsXpJr"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container26",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine2"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine5"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component5"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container26"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container26"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container25",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine2"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine5"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine3"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component5"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container25"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container25"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Component12",
+        "@type": [
+            "https://intendproject.eu/schema/Component"
+        ],
+        "https://intendproject.eu/schema/hasContainer": [
+            {
+                "@id": "https://intendproject.eu/fill/Container19"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container20"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Component12"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Component12"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/mfvNUkWsXpJr"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Service12",
+        "@type": [
+            "https://intendproject.eu/schema/Service"
+        ],
+        "https://intendproject.eu/schema/description": [
+            {
+                "@value": "Service12 generate the specific machine performance indicator. This allows you to detect changes over time and check successful installation after component replacement."
+            }
+        ],
+        "https://intendproject.eu/schema/hasComponent": [
+            {
+                "@id": "https://intendproject.eu/fill/Component8"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Component9"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Service12"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Service12"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/goMRcdnMgqtX"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Component5",
+        "@type": [
+            "https://intendproject.eu/schema/Component"
+        ],
+        "https://intendproject.eu/schema/hasContainer": [
+            {
+                "@id": "https://intendproject.eu/fill/Container25"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container26"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container27"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container28"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Component5"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Component5"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/mfvNUkWsXpJr"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container39",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine2"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine5"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component11"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container39"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container39"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container22",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine5"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component13"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container22"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container22"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container23",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine2"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine5"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine3"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component4"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container23"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container23"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container32",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine2"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine4"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component10"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container32"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container32"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container37",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine5"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component10"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container37"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container37"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container11",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine2"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine5"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine3"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component2"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container11"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container11"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Service5",
+        "@type": [
+            "https://intendproject.eu/schema/Service"
+        ],
+        "https://intendproject.eu/schema/description": [
+            {
+                "@value": "Service5 records all alarms and messages and identifies the main messages. Actual machine problems can thus be identified."
+            }
+        ],
+        "https://intendproject.eu/schema/hasComponent": [
+            {
+                "@id": "https://intendproject.eu/fill/Component6"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Service5"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Service5"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/goMRcdnMgqtX"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container24",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine5"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component4"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container24"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container24"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Machine4",
+        "@type": [
+            "https://intendproject.eu/schema/Machine"
+        ],
+        "https://intendproject.eu/schema/hasContainer": [
+            {
+                "@id": "https://intendproject.eu/fill/Container1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container2"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container5"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container6"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container7"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container10"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container11"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container12"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container15"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container16"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container17"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container18"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container19"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container20"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container21"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container22"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container23"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container24"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container25"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container26"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container27"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container28"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container29"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container30"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container31"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container32"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container33"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container34"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container35"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container36"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container37"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container38"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Container39"
+            }
+        ],
+        "https://intendproject.eu/schema/hasService": [
+            {
+                "@id": "https://intendproject.eu/fill/Service1"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service2"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service3"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service5"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service6"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service7"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Service10"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Machine4"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Machine4"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/ChFiDQgHfyXz"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container36",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine4"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component10"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container36"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container36"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container15",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine5"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component2"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container15"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container15"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    },
+    {
+        "@id": "https://intendproject.eu/fill/Container38",
+        "@type": [
+            "https://intendproject.eu/schema/Container"
+        ],
+        "https://intendproject.eu/schema/canBeDeployedOn": [
+            {
+                "@id": "https://intendproject.eu/fill/Machine4"
+            },
+            {
+                "@id": "https://intendproject.eu/fill/Machine5"
+            }
+        ],
+        "https://intendproject.eu/schema/isContainerOf": [
+            {
+                "@id": "https://intendproject.eu/fill/Component10"
+            }
+        ],
+        "https://schema.org/id": [
+            {
+                "@value": "ID161124_Container38"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Container38"
+            }
+        ],
+        "https://vocab.sti2.at/ds/compliesWith": {
+            "@id": "https://semantify.it/ds/QxVKBGrRfboE"
+        }
+    }
+]
