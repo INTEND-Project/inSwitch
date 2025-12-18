@@ -1,0 +1,56 @@
+Customer1 has_machine M00001
+M00001 has_type MTC
+
+ALARM_ANALYZER is Service
+ENERGY_TRACKER is Service
+
+ALARM_ANALYZER has_component Backend
+ALARM_ANALYZER has_component AlarmRecord
+ALARM_ANALYZER has_component Notifier
+
+ENERGY_TRACKER has_component Backend
+ENERGY_TRACKER has_component EnergyAnalysis
+
+Backend has_workload ngix
+Backend has_workload nodejs
+
+AlarmRecord has_workload alarm_record
+Notifier has_workload mqtt_sender
+
+EnergyAnalysis has_workload energy_collector
+EnergyAnalysis has_workload energy_aggregator
+
+ngix workload_version ngix_27
+ngix_27 version_number 1.27.2
+
+nodejs workload_version nodejs_23
+nodejs_23 version_number 23.2.0
+
+alarm_record workload_version alarm_record_1
+alarm_record_1 version_number 1.1
+
+alarm_record workload_version alarm_record_2
+alarm_record_2 version_number 1.2
+
+alarm_record workload_version alarm_record_3
+alarm_record_2 version_number 1.3
+
+mqtt_sender workload_version mqtt_sender_1
+mqtt_sender_1 version_number 1.21.1
+
+energy_aggregator workload_version energy_aggregator_1
+energy_aggregator_1 version_number 1.1
+
+energy_collector workload_version energy_collector_1
+energy_collector_1 version_number 1.1.1
+
+ngix_27 can_deploy_on MTC
+nodejs_23 can_deploy_on MTC
+alarm_record_2 can_deploy_on MTC
+mqtt_sender_1 can_deploy_on MTC
+energy_aggregator_1 can_deploy_on MTC
+energy_collector_1 can_deploy_on MTC
+
+
+ALARM_ANALYZER description "records all alarms and messages and identifies the main messages. Actual machine problems can thus be identified."
+ENERGY_TRACKER description "ENERGY TRACKER monitors media consumption and ensures early detection of production changes and leaks that might otherwise go undetected"

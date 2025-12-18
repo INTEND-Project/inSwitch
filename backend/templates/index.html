@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content "Baptiste Rambour" />
+    <title>Intent API - Homepage</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f9f9f9; color: #333; }
+        h1 { color: #2c3e50; }
+        h2 { margin-top: 30px; color: #34495e; }
+        ul { line-height: 1.8; }
+        a { color: #2980b9; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        code { background: #eee; padding: 2px 4px; border-radius: 4px; }
+        .method { font-weight: bold; color: #16a085; }
+        .post { color: #e67e22; }
+        .delete { color: #c0392b; }
+        .patch { color: #8e44ad; }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Intent API</h1>
+    <p>This is the API documentation for available routes.</p>
+
+    <h2>Frontend</h2>
+    <p>If you started the basic React frontend to interact with the API : <a href="http://localhost:3000">http://localhost:3000</a></p>
+
+    <h2>GET Endpoints</h2>
+    <ul>
+        <li><span class="method">GET</span> <a href="/intent">/intent</a> – List all intents</li>
+        <li><span class="method">GET</span> <a href="/intent/json-ld">/intent/json-ld</a> – List all intents (JSON-LD)</li>
+        <li><span class="method">GET</span> /intent/&lt;intent_id&gt; – Get a specific intent</li>
+        <li><span class="method">GET</span> /intent/&lt;intent_id&gt;/json-ld – Get intent (JSON-LD)</li>
+        <li><span class="method">GET</span> /intent/&lt;intent_id&gt;/intentReport – Get all intent reports for an intent</li>
+        <li><span class="method">GET</span> /intent/&lt;intent_id&gt;/intentReport/&lt;report_id&gt; – Get specific intent report</li>
+    </ul>
+
+    <h2>POST Endpoints</h2>
+    <ul>
+        <li><span class="method post">POST</span> /intent – Create a new intent<br>
+            <code>{ "author": "Alice", "content": "Do something" }</code>
+        </li>
+    </ul>
+
+    <h2>PATCH Endpoints</h2>
+    <ul>
+        <li><span class="method patch">PATCH</span> /intent/&lt;intent_id&gt; – Update intent content<br>
+            <code>{ "content": "Updated value" }</code>
+        </li>
+    </ul>
+
+    <h2>DELETE Endpoints</h2>
+    <ul>
+        <li><span class="method delete">DELETE</span> /intent/&lt;intent_id&gt; – Delete an intent</li>
+        <li><span class="method delete">DELETE</span> /intent/&lt;intent_id&gt;/intentReport/&lt;report_id&gt; – Delete an intent report</li>
+    </ul>
+
+    <hr>
+    <p style="font-size: 0.9em;">Built with Flask | API for managing intents and intent reports</p>
+</body>
+</html>

@@ -1,0 +1,37 @@
+Nerve DNA revolves around the deployment of workloads, note the behavior of existing workloads when additional workloads are deployed through Nerve DNA depending on the restartAllWLs parameter inside the API call PUT /nerve/dna/{serialNumber}/target
+
+The target configuration file is written in YAML format and applied to nodes through the PUT /nerve/dna/{serialNumber}/target call in the Management System API. Download the schema file here in order to validate the YAML file with a schema validator of choice.
+
+Here serialNumber is the unique id of the target machine.
+
+The target configuration YAML file can be uploaded by itself and does not need a specific file name.
+
+When declaring a workload in the target configuration, the name and version attributes are mandatory. While hash is not required, it is strongly recommended to ensure precise identification of the workload in some use cases. Refer to The importance of the hash below for more information.
+
+Take a look below for an example target configuration YAML file:
+
+schema_version: 1
+workloads:
+  - name: docker1
+    version: version-d1
+  - name: vm1
+    version: version-vm2
+    hash: hash4
+  - name: docker2
+    version: version-d2
+    hash: hash-d2
+
+
+Getting all the workloads:
+Expand GET /nerve/v3/workloads.
+
+Getting the versions of a workload:
+GET /nerve/v3/workloads/{workloadID}
+
+Fetching the unique info for the workload and version:
+Expand GET /nerve/v3/workloads/{workloadId}/versions/{versionId}/unique-info under WORKLOAD.
+Select Try it out.
+Enter the workload ID that was fetched above into the Workload Id field.
+Enter the version ID that was fetched above into the Version Id field.
+
+To simplified it, we can use workload and version names to replace workloadId and versionId.
