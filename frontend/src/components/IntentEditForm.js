@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from 'axios';
 
-const DEFAULT_INTENTS_URL = "http://localhost:5000/intent"
+const DEFAULT_INTENTS_URL = "http://localhost:5001/intent"
 
 /**
  * IntentEditForm Component

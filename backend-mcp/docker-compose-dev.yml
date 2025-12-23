@@ -1,0 +1,36 @@
+version: '3.8'
+networks:
+  inswitch_network:
+    name: inswitch_network
+services:
+  api:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/workspaces/backend-mcp:cached
+    networks: 
+      - inswitch_network
+    command: sleep infinity
+  graphdb:
+    container_name: graphdb
+    image: ontotext/graphdb:10.6.4
+    ports:
+      - 7200:7200  # Port
+    networks: 
+      - inswitch_network
+    volumes:
+      - graphdb-data:/opt/graphdb/home
+  graphdb-init:
+    image: curlimages/curl
+    depends_on:
+      - graphdb
+    volumes:
+      - ./repo-config.ttl:/repo-config.ttl
+      - ./init-graphdb.sh:/init-graphdb.sh
+    networks:
+      - inswitch_network
+    entrypoint: ["sh", "/init-graphdb.sh"]
+
+volumes:
+  graphdb-data:

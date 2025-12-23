@@ -1,0 +1,12 @@
+{
+    "dockerComposeFile": "../docker-compose-dev.yml",
+    "service": "api",
+    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+    "forwardPorts": [5001],
+    "customizations": {
+        "extensions": ["ms-python.python"],
+        "settings": {
+            "python.defaultInterpreterPath": "/usr/local/bin/python"
+        }
+    }
+}
