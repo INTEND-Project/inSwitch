@@ -2,7 +2,7 @@
 # Contains logic
 
 from repositories import intent_repository as repository
-from agents import intent_handler as handler
+from agents import basic_intent_handler as handler
 # from services import core_agents
 # from services.custom_task import custom_chat
 # from services.core_agents import result_extractor, summary_extractor, moderator
